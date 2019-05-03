@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/finngreiter/keyword-chat/issues"
   },
-  "homepage": "https://github.com/finngreiter/keyword-chat#readme"
+  "homepage": "https://github.com/finngreiter/keyword-chat#readme",
+  "devDependencies": {
+    "electron": "^5.0.0"
+  }
 }

@@ -3,7 +3,7 @@ const { app, BrowserWindow } = require('electron')
 let win
 
 function createMainWin(){
-  win = new BrowserWindow({width: 600, height: 600, backgroundColor: '#000', resizable: false})
+  win = new BrowserWindow({width: 600, height: 600, backgroundColor: '#323', resizable: false, frame: process.platform !== 'darwin'})
   win.loadURL(`file:///${__dirname}/src/index.html`)
   win.on('closed', () => {
     win = null

@@ -1,0 +1,20 @@
+{
+  "name": "keyword-chat",
+  "version": "0.0.1",
+  "description": "A cool little LAN chat thingy.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finngreiter/keyword-chat.git"
+  },
+  "author": "Finn Greiter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finngreiter/keyword-chat/issues"
+  },
+  "homepage": "https://github.com/finngreiter/keyword-chat#readme"
+}

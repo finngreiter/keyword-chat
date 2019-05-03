@@ -10,7 +10,7 @@ function createMainWin(){
   })
 }
 
-app.on('ready', createMainWin())
+app.on('ready', () => createMainWin())
 
 app.on('window-all-closed', () => {
   app.quit()

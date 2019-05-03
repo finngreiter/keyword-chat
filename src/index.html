@@ -3,12 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Keyword Chat</title>
+    <script src="keywordChat.js" charset="utf-8"></script>
   </head>
   <body>
-    <script type="text/javascript">
-      const KeywordChat = require('./KeywordChat');
+    <div id="app">
+      <!-- stuff gets built into here from keywordChat.js -->
+    </div>
+    <script>
+      const kc = new KeywordChat()
 
-      let kc = new KeywordChat()
+      // build components into the app div
       kc.buildComponents()
     </script>
   </body>

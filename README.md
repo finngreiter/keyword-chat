@@ -1,2 +1,4 @@
-# keyword-chat
-A cool little LAN chat thingy.
+# Keyword Chat
+A cool little chat thingy.
+
+WIP on v2

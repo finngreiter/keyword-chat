@@ -19,5 +19,9 @@
   "homepage": "https://github.com/finngreiter/keyword-chat#readme",
   "devDependencies": {
     "electron": "^5.0.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
   }
 }
